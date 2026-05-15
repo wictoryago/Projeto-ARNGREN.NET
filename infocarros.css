@@ -7,6 +7,12 @@
 
 }
 
+body{
+
+    background-color: rgba(243, 237, 237, 0.397);
+
+}
+
 .imagens{
 
     display: flex;
@@ -17,8 +23,8 @@
 
 img{
 
-    width: 500px;
-    height: 330px;
+    width: 480px;
+    height: 300px;
 
 
 }
@@ -31,66 +37,66 @@ height: 600px;
 
 .informacoes{
 
-background-color: rgba(0, 236, 165, 0.397);
-height: 600px;
+background-color: rgba(219, 209, 209, 0.397);
+height: 500px;
 width: 600px;
 display: flex;
-align-items: center;
-
-}
-
-p{
-
-font-size: 20px;
-
-}
-
-h1{
-
-font-size: 30px;
-color: black;
-font-family: Arial, sans-serif;
+flex-direction: column;
+border-radius: 35px;
 position: relative;
-right: -10px;
-bottom: 200px;
-
+left: 70px;
 
 }
 
-h3{
+.infocarro{
 
-color: black;
-font-family: Arial, sans-serif;
+width: 380px;
 position: relative;
-right: 173px;
-bottom: 120px;
-
+top: 125px;
+left: 20px;
 
 }
 
 span{
 
-    color: red;
-    
+color: blue
+
+}
+
+h2{
+
+font-size: 30px;
+font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+
+
+}
+
+p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(68, 62, 62);
+
+}
+
+
+.lista{
+
+width: 400px;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: black;
+  margin-left: 20px;
+  margin-top: 140px;
 }
 
 ul{
+
     list-style: none;
-    font-size: 20px;
-    position: relative;
-    top: 20px;
-    display: inline-flex;
-    right: 295px;
-    gap: 100px;
-    
-
-}
-
-.carrocont{
-
-    position: relative; 
-    top: 95px;
-width: 300px;
-height: 300px;
+    font-size: 25px;
 
 }
