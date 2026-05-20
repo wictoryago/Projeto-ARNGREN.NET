@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 40, 40, 0.897);
+    background-color: rgba(255, 40, 40, 0.89);
     background-image: url(IMAGENS_MENU/luxa.org-opacity-changed-BK-NAV.png);
     border-radius: 120px;
     z-index: 20;
