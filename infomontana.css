@@ -1,0 +1,161 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+
+    background-color: rgba(243, 237, 237, 0.397);
+
+}
+
+.imagens{
+
+    display: flex;
+    justify-content: center;
+    height: 330px;
+
+}
+
+.foto{
+
+    width: 480px;
+    height: 300px;
+
+
+}
+
+.pai{
+
+height: 600px;
+
+}
+
+.informacoes{
+
+background-color: rgba(219, 209, 209, 0.397);
+height: 500px;
+width: 600px;
+display: flex;
+flex-direction: column;
+border-radius: 35px;
+position: relative;
+left: 70px;
+
+}
+
+.infocarro{
+
+width: 380px;
+position: relative;
+top: 125px;
+left: 20px;
+
+}
+
+span{
+
+color: blue
+
+}
+
+.h2{
+
+font-size: 27px;
+font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 910;
+  font-style: normal;
+
+
+}
+
+.p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(68, 62, 62);
+
+}
+
+
+.lista{
+
+width: 400px;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: black;
+  margin-left: 20px;
+  margin-top: 140px;
+}
+
+.ul{
+
+    list-style: none;
+    font-size: 25px;
+
+}
+
+
+.preco{
+
+    width: 250px;
+    height: 230px;
+    background-color: rgba(219, 209, 209, 0.397);
+    border-radius: 20px;
+    float: right;
+    margin-top: -379px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.titulo{
+
+position: relative;
+top: -50px;
+left: 56px;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+button{
+
+    width: 300px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    right: 70px;
+
+}
+
+button:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    font-size: 15px;
+    border-radius: 15px;
+    bordeR: solid blue 1px;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 2,0s;
+
+
+}
