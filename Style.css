@@ -208,3 +208,77 @@ font-family: "Inter", sans-serif;
     border-radius: 25px;
     margin-left: 200px;
 }
+/*FINAL*/
+
+
+.FRASES---FINAL{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.PART_FINAL{
+    width: 100%;
+    height: auto;
+}
+
+.V8-FINALE{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.filhote--JK{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.cool-legal h3 {
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.cool-legal ul {
+    list-style: none;
+}
+
+.cool-legal ul li {
+    margin-bottom: 10px;
+}
+
+.cool-legal ul li a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    font-size: 23px;
+}
+
+.cool-legal ul li a:hover {
+    color: royalblue;
+}
+
+.footer-sla-oq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+
+}
+
+.footer-sla-oq p{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.FINAL--loasdas{
+    font-size: 30px;
+}
