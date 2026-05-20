@@ -109,8 +109,8 @@ font-family: "Inter", sans-serif;
     background-color: rgba(219, 209, 209, 0.397);
     border-radius: 20px;
     float: right;
-    margin-top: -450px;
-    margin-right: 120px;
+    margin-top: -379px;
+    margin-right: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,21 +120,39 @@ font-family: "Inter", sans-serif;
 
 .titulo{
 
-
+position: relative;
+top: -50px;
+left: 56px;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 
 }
 
 button{
 
-    width: 150px;
-    height: 50px;
+    width: 300px;
+    height: 60px;
     background-color: blue;
     color: white;
     font-size: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     cursor: pointer;
     position: relative;
-    top: 50px;
+    top: 30px;
+    right: 70px;
+
+}
+
+button:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    font-size: 15px;
+    border-radius: 15px;
+    bordeR: solid blue 1px;
+    cursor: pointer;
 
 }
