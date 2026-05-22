@@ -126,53 +126,45 @@ body{
     display: flex;
     justify-content: center;
     height: 530px;
-    
 }
 
 .foto{
-
     width: 430px;
     height: 230px;
     border-radius: 35px;
     margin-left: 10px;
-    
-
 }
 
 .pai{
-
-height: 600px;
-
+    height: 600px;
 }
 
 .informacoes{
-
-background-color: rgba(219, 209, 209, 0.397);
-height: 500px;
-width: 600px;
-display: flex;
-flex-direction: column;
-border-radius: 35px;
-position: relative;
-left: 70px;
-
+    background-color: rgba(219, 209, 209, 0.397);
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    position: relative;
+    left: 70px;
 }
 
 .infocarro{
 
-width: 380px;
-position: relative;
-top: 125px;
-left: 20px;
+    width: 380px;
+    position: relative;
+    top: 125px;
+    left: 20px;
 
 }
 .h2{
 
-font-size: 30px;
-font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 1000;
-  font-style: normal;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
 }
 
 .sepa{
@@ -196,9 +188,9 @@ font-family: "Orbitron", sans-serif;
 
 .FRASE-LOGOS{
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 750;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
     letter-spacing: 2px;
     color: #f7f7f7;
     -webkit-text-stroke: 1.5px #1a1d20;
@@ -217,10 +209,8 @@ font-family: "Inter", sans-serif;
 }
 
 .ul{
-
     list-style: none;
     font-size: 25px;
-
 }
 
 .FUNDO-CINZA{
