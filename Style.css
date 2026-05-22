@@ -73,7 +73,7 @@ body{
 .Profi-IM{
     width: 52px;
     background-color: white;
-    border-radius: 250px;
+    clip-path: circle(47%);
 }
 
 
@@ -247,7 +247,10 @@ justify-content: center;
 .ICONE-LOGO-MARCA{
  height: 300px;
  width: 300px;
- border-radius: 150px;
+ clip-path: circle(50%);
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 
@@ -255,6 +258,8 @@ justify-content: center;
 .logo-item a:hover{
   transform: scale(1.5);
   transition: all 1.8s ;
+  background-color: rgba(0, 0, 0, 0.445);
+  clip-path: circle(57%);
 }
 
 
@@ -292,7 +297,7 @@ justify-content: center;
 
 .cool-legal h3 {
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .cool-legal ul {
@@ -301,16 +306,21 @@ justify-content: center;
 
 .cool-legal ul li {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .cool-legal ul li a {
     text-decoration: none;
-    color: rgb(255, 253, 253);
-    font-size: 23px;
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .cool-legal ul li a:hover {
-    color: royalblue;
+    color: rgb(31, 78, 221);
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 15px;
 }
 
 .footer-sla-oq{
