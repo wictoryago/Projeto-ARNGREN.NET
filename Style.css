@@ -13,7 +13,7 @@ body{
     width: 70%;
     height: 75px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(255, 40, 40);
     background-image: url(IMAGENS_MENU/luxa.org-opacity-changed-BK-NAV.png);
@@ -28,12 +28,18 @@ body{
     margin-top: 5px;
 }
 
+.DivlogoUP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo-up-up{
     width: 79px;
 }
 
 .Botoes-do-menu{
-    width: 70%;
+    width: 63%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -53,12 +59,12 @@ body{
 .Botoes-do-menu a:hover{
     color: black;
     background-color: rgb(255, 0, 0);
-    transform: scale(1.1);
+    transform: scale(1.27);
     transition: 90ms;
 }
 
 .Profile{
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -78,7 +84,7 @@ body{
 
 
 .FDA{
-    width: 107px;
+    width: 60%;
     height: 42px;
     background-color: yellow;
     display: flex;
@@ -218,14 +224,14 @@ font-family: "Inter", sans-serif;
 
 /* parte banner */
 .banner{
-height: 350px;
+height: 530px;
 display: flex;
 justify-content: center;
 }
 
 .pic{
     width: 100%;
-    height: 500px;
+    height: auto;
 }
 
 
@@ -257,7 +263,7 @@ justify-content: center;
 
 .logo-item a:hover{
   transform: scale(1.5);
-  transition: all 1.8s ;
+  transition: all 830ms ;
   background-color: rgba(0, 0, 0, 0.445);
   clip-path: circle(57%);
 }

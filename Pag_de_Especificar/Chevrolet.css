@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient( #5e7391);
+    background-image: linear-gradient( #F4F5F7);
 }
 
 /* PARTE DE CIMA*/
@@ -13,10 +13,10 @@ body{
     width: 70%;
     height: 75px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(255, 40, 40);
-    background-image: url(IMAGENS_MENU/luxa.org-opacity-changed-BK-NAV.png);
+    background-image: url(../IMAGENS_MENU/luxa.org-opacity-changed-BK-NAV.png);
     border-radius: 120px;
     z-index: 20;
     position: fixed;
@@ -28,12 +28,18 @@ body{
     margin-top: 5px;
 }
 
+.DivlogoUP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo-up-up{
     width: 79px;
 }
 
 .Botoes-do-menu{
-    width: 70%;
+    width: 63%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -53,12 +59,12 @@ body{
 .Botoes-do-menu a:hover{
     color: black;
     background-color: rgb(255, 0, 0);
-    transform: scale(1.1);
+    transform: scale(1.27);
     transition: 90ms;
 }
 
 .Profile{
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -78,7 +84,7 @@ body{
 
 
 .FDA{
-    width: 107px;
+    width: 60%;
     height: 42px;
     background-color: yellow;
     display: flex;
