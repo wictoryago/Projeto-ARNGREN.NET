@@ -1,0 +1,53 @@
+.logo-item{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo-item img{
+    width: 140px;
+}
+
+.chev{
+height: 300px;
+ width: 600px;
+ margin-top: 30px;
+}
+
+
+.marcas{
+    background-color: black;
+    color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  width: 500px;
+margin-left: 370px;
+border-radius: 15px;
+  margin-top: 200px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style:normal;
+
+
+}
+
+
+body{
+background-color: rgb(168, 166, 166);
+
+}
+
+a :hover{
+
+  transform: scale(1.2);
+  transition: all 90ms ;
+
+
+
+
+}

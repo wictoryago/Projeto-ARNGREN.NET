@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiamento</title>
+    <link rel="stylesheet" href="Financiar.css">
+</head>
+
+<body>
+
+<!---------------------------MENU------------------------------->
+    <div class="meiuca">
+        <nav class="menu-de-up">
+            <a class="DivlogoUP" href="Index.html"><img class="logo-up-up" src="IMAGENS_MENU/Gemini_Generated_Image_a0kabva0kabva0ka (1).png" alt=""></a>
+        <div class="Botoes-do-menu">
+            <a href="">COMPRAR</a>
+            <a href="">VENDER</a>
+            <a href="Financiar.html">FINANCIAR</a>
+            <a href="">ASSINAR</a>
+            <a href="">SERVIÇOS</a>
+            <a href="">AJUDA</a>
+        </div>
+        
+        <div class="Profile">
+            <div class="FDA"><a href="">ENTRAR</a></div>
+            <img class="Profi-IM" src="IMAGENS_MENU/round-account-button-with-user-inside_icon-icons.com_72596.png" alt="">
+        </div>
+        </nav>
+        <div class="SEPSEPARACAOCAO"></div>
+    </div>
+<!---------------------------FIM DO MENU------------------------------->
+
+    <div class="tudo">
+
+        <div>
+            <h1>Valor do carro</h1>
+            <input type="number" id="valorCarro" placeholder="Insira o valor">
+        </div>
+
+        <div>
+            <h1>Valor da entrada</h1>
+            <input type="number" id="entrada" placeholder="Insira o valor">
+        </div>
+
+        <div>
+            <h1>Taxa de juros (%)</h1>
+            <input type="number" id="juros" placeholder="Insira a taxa">
+        </div>
+
+        <p>
+            Média das 30 menores taxas encontradas no BCB.
+        </p>
+
+        <div>
+            <h1>Número de parcelas</h1>
+            <input type="number" id="parcelas" placeholder="Insira o valor">
+        </div>
+
+        <div>
+            <button onclick="limpar()">Limpar</button>
+
+            <button onclick="calcular()">Calcular</button>
+        </div>
+
+        <div id="resultado"></div>
+
+    </div>
+
+    <script>
+
+        function calcular() {
+
+            let valorCarro = Number(document.getElementById("valorCarro").value);
+
+            let entrada = Number(document.getElementById("entrada").value);
+
+            let juros = Number(document.getElementById("juros").value);
+
+            let parcelas = Number(document.getElementById("parcelas").value);
+
+            let valorFinanciado = valorCarro - entrada;
+
+            let jurosMensal = juros / 100;
+
+            let valorParcela =
+                (valorFinanciado * (1 + jurosMensal)) / parcelas;
+
+            document.getElementById("resultado").innerHTML =
+                `Valor aproximado da parcela: R$ ${valorParcela.toFixed(2)}`;
+        }
+
+        function limpar() {
+
+            document.getElementById("valorCarro").value = "";
+
+            document.getElementById("entrada").value = "";
+
+            document.getElementById("juros").value = "";
+
+            document.getElementById("parcelas").value = "";
+
+            document.getElementById("resultado").innerHTML = "";
+        }
+
+    </script>
+
+</body>
+</html>
